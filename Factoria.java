@@ -9,7 +9,7 @@ class Factoria
       System.out.print("Enter a no..");
       n = ob.nextInt();
       for(i=1;i<=n;i++){
-      fact *= i;
+      fact =  fact*i;
     }
      System.out.print(fact);
 }
